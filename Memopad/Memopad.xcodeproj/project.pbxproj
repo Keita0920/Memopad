@@ -16,6 +16,7 @@
 		0BCEF27228B83C65003D79BD /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEF27128B83C65003D79BD /* MemopadTests.swift */; };
 		0BCEF27C28B83C65003D79BD /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEF27B28B83C65003D79BD /* MemopadUITests.swift */; };
 		0BCEF27E28B83C65003D79BD /* MemopadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEF27D28B83C65003D79BD /* MemopadUITestsLaunchTests.swift */; };
+		0BCEF28B28B83D40003D79BD /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEF28A28B83D40003D79BD /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0BCEF27728B83C65003D79BD /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCEF27B28B83C65003D79BD /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
 		0BCEF27D28B83C65003D79BD /* MemopadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BCEF28A28B83D40003D79BD /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0BCEF26328B83C64003D79BD /* Assets.xcassets */,
 				0BCEF26528B83C64003D79BD /* LaunchScreen.storyboard */,
 				0BCEF26828B83C64003D79BD /* Info.plist */,
+				0BCEF28A28B83D40003D79BD /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCEF28B28B83D40003D79BD /* MemoViewController.swift in Sources */,
 				0BCEF25F28B83C64003D79BD /* ViewController.swift in Sources */,
 				0BCEF25B28B83C64003D79BD /* AppDelegate.swift in Sources */,
 				0BCEF25D28B83C64003D79BD /* SceneDelegate.swift in Sources */,
